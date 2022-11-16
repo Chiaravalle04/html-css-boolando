@@ -11,6 +11,10 @@
 }
 
 /* REGOLE GENERALI */
+body {
+    margin-top: 130px;
+}
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -25,12 +29,61 @@ i {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 15px;
+    color: grey;
+    /* margin: 3px 0; */
+}
+
+.cost {
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+} 
+
+.old-cost {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.hearts {
+    font-size: 30px;
+    padding: 0 10px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.discount {
+    padding: 2px 12px;
+    color: #ffffff;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.sost {
+    padding: 2px 12px;
+    color: #ffffff;
+    background-color: #008000;
+    position: absolute;
+    bottom: 100px;
+    left: 62px;
+}
+
 /* STRUTTURA HEADER */
 header {
     width: 100%;
     height: 70px;
     background-color: #ff6900;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 30;
 }
 
@@ -71,4 +124,24 @@ header {
 
 .header-logo img {
     height: 30px;
+}
+
+/* STRUTTURA MAIN */
+/* FIRST SECTION */
+.cont-section {
+    display: flex;
+}
+.product-1, .product-2, .product-3 {
+    width: calc(100% / 3);
+    min-height: 300px;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.product-2 {
+    margin: 0 20px;
+}
+
+.product-1, .product-2, .product-3, img {
+    width: 100%;
 }
