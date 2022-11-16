@@ -37,7 +37,6 @@ i {
 h2 {
     font-size: 15px;
     color: grey;
-    /* margin: 3px 0; */
 }
 
 .cost {
@@ -79,6 +78,17 @@ h2 {
     position: absolute;
     bottom: 100px;
     left: 62px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
 /* STRUTTURA HEADER */
@@ -153,4 +163,26 @@ header {
     position: absolute;
     bottom: 100px;
     left: 0px;
+}
+
+/* STRUTTURA FOOTER */
+footer {
+    height: 100px;
+    background-color: #1a1a1a;
+}
+
+.cont-footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text a {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.social-icon i {
+    font-size: 20px;
 }
