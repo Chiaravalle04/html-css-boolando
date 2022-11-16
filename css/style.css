@@ -119,6 +119,10 @@ header {
     padding: 10px 0;
 }
 
+.categories a:hover {
+    text-decoration: underline;
+}
+
 .icon-header {
     text-align: end;
 }
@@ -156,6 +160,25 @@ header {
     width: 100%;
 }
 
+.prod-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.product-1-4:hover .prod-hover {
+    display: block;
+}
+
+.product-2-5:hover .prod-hover {
+    display: block;
+}
+
+.product-3-6:hover .prod-hover {
+    display: block;
+}
+
 #id-sost {
     padding: 2px 12px;
     color: #ffffff;
@@ -181,6 +204,10 @@ footer {
 .footer-text a {
     font-size: 10px;
     margin-right: 5px;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
 }
 
 .social-icon i {
