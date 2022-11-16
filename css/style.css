@@ -4,3 +4,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FONT */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* REGOLE GENERALI */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+i {
+    color: #ffffff;
+}
+
+/* STRUTTURA HEADER */
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #ff6900;
+    position: fixed;
+    z-index: 30;
+}
+
+.cont-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.categories, .icon-header {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.categories a {
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.icon-header {
+    text-align: end;
+}
+
+.icon-header a {
+    margin-left: 5px;
+    padding: 10px 0;
+}
+
+.header-logo {
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 30px;
+}
